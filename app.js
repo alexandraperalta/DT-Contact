@@ -2,6 +2,8 @@ var express = require('express');
 var app = express();
 app.use(express.static("public"));
 const port = process.env.PORT || 3001;
+const apiKey = "TEST";//process.env.API_KEY;
+
 
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
