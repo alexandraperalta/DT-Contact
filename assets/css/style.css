@@ -1,0 +1,189 @@
+body{
+    Background: #5b0d0d;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0 auto; /*centers everything on the page */
+    color: rgb(218, 223, 209);
+    width: 960px;
+    overflow-x: hidden;
+    /* background-input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: rgb(218, 223, 209);
+  color: #5b0d0d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #8a5454;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*image: url("../images/dust_scratches.png") */
+    /* background-image: url("../images/stardust.png") */
+
+#header{
+    display: block;
+    position: relative;
+    clear: both;
+    Background: rgb(218, 223, 209);
+    float: left;
+}
+#content{
+    width: 960px;
+    display:block;
+    position: relative;
+    clear: both;
+}
+.name{
+    background: rgb(218, 223, 209);
+    color: #5b0d0d;
+    padding: 5px;
+    /* width: 315px;    */
+    text-align: left; 
+}
+.full-length-bar{
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    padding: 0rem 9999rem;
+}
+.full-length-footer{
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    /* padding: 0rem 9999rem; */
+}
+#nav{
+    float: right;
+    margin-top: 20px;
+    padding: 0rem 0rem;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+    display:inline-block;
+    padding: 0px .5em
+}
+#section{
+    float: left;
+    width: 620px;    
+    margin:25px 0px 15px 0px;    
+}
+.aboutMe p{
+    line-height: 2;
+}
+.aboutMe img{
+    height:125px;
+    float: left;
+    transform: rotate(90deg);    
+    margin-top: 5px; 
+}
+#connect{
+    float: right;
+    width: 240px;
+    margin:25px 0px 20px 0px;
+}
+#footer{
+    margin-top:30px;
+    display:block;
+    position: relative;
+    clear: both;
+    text-align: center;
+}
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    color: #eee;
+}
+#footer .main{
+    font-size: 12px;
+    background-color:#5b0d0d;
+    padding-top: 50px;
+}
+#footer .thin-green-line{
+    
+    background-color: #fdd46a;
+}
+section div{
+    padding-top: 40px;
+    padding: 15px;    
+    display: block;
+    Background: #fafafa;
+    color:#5b0d0d;
+    height: auto;
+}
+section h2{
+    color: #fdd46a;
+}
+#connect img{
+    height: 65px;
+    width: 65px;
+}
+textarea{
+    margin: 0px;
+    width: 517px;
+    height: 310px;
+}
+input{
+    height:30px;
+}
+a{text-decoration: none;}
+a:link{ color: olivedrab}
+a:visited { color: #5b0d0d; }
+a:hover { color: #fdd46a; }
+a:active { color: #c4c2c2; }
+
+.overlay {
+    position: absolute;
+    width: 180px;
+    height: 0px;
+    background-color: #fdd46a;
+    z-index: 2;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+ .hangman{
+    bottom: 368px; /*7 from bottom*/
+}
+.rpg{
+    bottom: 368px; /*7 from bottom*/
+} 
+.trivia{
+    bottom: 212px; /*7 from bottom*/
+}
+.rutgers{
+    bottom: 212px; /*7 from bottom*/
+}
+.rock{
+    bottom: 59px; /*7 from bottom*/
+}
+
+table img{
+    height: 118.3px;
+}
